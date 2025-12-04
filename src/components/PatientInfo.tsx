@@ -86,7 +86,11 @@ export function PatientInfo({
                 exploratory laparotomy based on their vital signs, transfusion
                 history, and demographics. Patients with similar profiles
                 historically required XLAP in {(probability * 100).toFixed(0)}%
-                of cases.
+                of cases. The most significant features that informed this
+                prediction were whether the patient received irradiated platelet
+                pheresis, the total number of units of cryoprecipitate received
+                by the patient, and the total number of transfusion procedures
+                they required.
               </p>
             </div>
           )}
