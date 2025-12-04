@@ -6,7 +6,7 @@ user_interface/.env.development.local
 user_interface/.env.test.local
 user_interface/.env.production.local
 
-user_interface/.env*
+/.env*
 
 user_interface/node_modules/
 user_interface/dist/
@@ -41,4 +41,4 @@ env/
 
 # AWS
 *.pem
-*.key
+*.key.env
